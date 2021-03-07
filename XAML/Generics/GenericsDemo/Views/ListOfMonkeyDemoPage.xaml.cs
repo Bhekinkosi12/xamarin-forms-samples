@@ -6,7 +6,9 @@ namespace GenericsDemo.Views
     {
         public ListOfMonkeyDemoPage()
         {
+        
             InitializeComponent();
+            this.BindingContext = new ListofMonkeyDemoPage
         }
     }
 }
